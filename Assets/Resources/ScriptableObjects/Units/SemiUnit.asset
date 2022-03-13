@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41695b160d579fb47af2ed5def7a4ea6, type: 3}
+  m_Name: SemiUnit
+  m_EditorClassIdentifier: 
+  Type: {fileID: 11400000, guid: b075bd1da8cadc941908f6acb2a91ae9, type: 2}
+  enemyType: 5
+  Name: Semi Truck
+  Description: A large semi truck
+  sprite: {fileID: 21300000, guid: 72b0a0a10077b3a4b8f585c2062b3661, type: 3}
+  color: {r: 0.4464721, g: 0.38592023, b: 0.6886792, a: 1}
+  gameState: {fileID: 11400000, guid: 52c326f0a86fad44ea4e5f77b8dac6ba, type: 2}
+  tileWidth: 3
+  tileHeight: 1
+  maxHealth: 100
+  defaultDirection: 90
+  maxSpeed: 2
+  crashDamage: 20
+  shotDamage: 5
+  score: 1000
+  flammable: 1
+  bulletproof: 0
+  bombable: 1
+  entersTop: 1
+  entersBottom: 1

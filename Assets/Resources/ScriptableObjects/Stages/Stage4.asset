@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d4e142c8bcc6b44ba2e3564d32bb0a4, type: 3}
+  m_Name: Stage4
+  m_EditorClassIdentifier: 
+  levelHeight: 200
+  startRoadHeight: 20
+  endRoadHeight: 30
+  startRoadWidth: 12
+  startRoadLeftOffset: 6
+  startPlayerX: 11
+  startPlayerY: 6
+  minRoadWidth: 6
+  maxRoadWidth: 18
+  narrowRatio: 4
+  widenRatio: 2
+  curveRatio: 4
+  splitDistance: 5
+  splitSteps: 2
+  splitStart: 3
+  splitEnd: 3
+  splitPercent: 0.5
+  primaryBackground: 4
+  primaryRoadEdge: 7
+  primaryRoad: 1
+  straightRoadChance: 20
+  curvyRoadChance: 10
+  narrowRoadChance: 10
+  narrowLeftRoadChance: 10
+  narrowRightRoadChance: 10
+  widenRoadChance: 20
+  splitRoadChance: 0
+  bridgeRoadChance: 0
+  enemyProbabilityPerRow: 10
+  enemyProbabilityBehindPerTurn: 10
+  enemyProbabilityAheadPerTurn: 20

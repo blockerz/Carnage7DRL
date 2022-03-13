@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41695b160d579fb47af2ed5def7a4ea6, type: 3}
+  m_Name: StreetBikeEnemy
+  m_EditorClassIdentifier: 
+  Type: {fileID: 11400000, guid: b075bd1da8cadc941908f6acb2a91ae9, type: 2}
+  enemyType: 3
+  Name: Street Bike
+  Description: A fast small street bike.
+  sprite: {fileID: 21300000, guid: cffee1469ec7a4e40ac591daf76aa7ea, type: 3}
+  color: {r: 0.8444864, g: 0.8584906, b: 0.26240656, a: 1}
+  gameState: {fileID: 11400000, guid: 52c326f0a86fad44ea4e5f77b8dac6ba, type: 2}
+  tileWidth: 1
+  tileHeight: 1
+  maxHealth: 5
+  defaultDirection: 270
+  maxSpeed: 3
+  crashDamage: 5
+  shotDamage: 0
+  score: 5
+  flammable: 1
+  bulletproof: 0
+  bombable: 1
+  entersTop: 0
+  entersBottom: 1

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41695b160d579fb47af2ed5def7a4ea6, type: 3}
+  m_Name: PlayerUnit
+  m_EditorClassIdentifier: 
+  Type: {fileID: 11400000, guid: b9f4e19b82c65d74cbe7ce8649f93b90, type: 2}
+  enemyType: 0
+  Name: Player
+  Description: A human player of the game controlled by keyboard and mouse input.
+  sprite: {fileID: 21300000, guid: d01a6d22a0f9a0543bd982fb1cd163a1, type: 3}
+  color: {r: 0.11383408, g: 0.990566, b: 0.013082896, a: 1}
+  gameState: {fileID: 11400000, guid: 52c326f0a86fad44ea4e5f77b8dac6ba, type: 2}
+  tileWidth: 2
+  tileHeight: 1
+  maxHealth: 100
+  defaultDirection: 90
+  maxSpeed: 2
+  crashDamage: 5
+  shotDamage: 5
+  score: 0
+  flammable: 1
+  bulletproof: 0
+  bombable: 1
+  entersTop: 1
+  entersBottom: 1
